@@ -10,6 +10,7 @@ module.exports = {
   remove,
 };
 
+//? s1 find simple returns a data of users
 function find() {
   return db('users');
 }
